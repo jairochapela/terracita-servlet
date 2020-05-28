@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Carta</h1>
+
+        <form action="PedidoServlet" method="POST">
+                <select name="mesa" id="mesa">
+                    <option value="">(Indíquenos su mesa)</option>
+                    <option value="1">Mesa 1</option>
+                    <option value="2">Mesa 2</option>
+                    <option value="3">Mesa 3</option>
+                    <option value="4">Mesa 4</option>
+                    <option value="5">Mesa 5</option>
+                    <option value="6">Mesa 6</option>
+                </select>            
+    
+
+            <h2>Entrantes</h2>
+            <div>
+                <label for="e1">Empanada</label>
+                <input type="radio" name="entrante" value="Empanada" id="e1">
+            </div>
+
+            <div>
+                <label for="e2">Pulpo a la gallega</label>
+                <input type="radio" name="entrante" value="Pulpo" id="e2">
+            </div>
+
+            <div>
+                <label for="e3">Patatas bravas</label>
+                <input type="radio" name="entrante" value="Patatas bravas" id="e3">
+            </div>
+
+            <div>
+                <label for="e4">Calamares</label>
+                <input type="radio" name="entrante" value="Calamares" id="e4">
+            </div>
+
+
+            <h2>Carnes</h2>
+            <div>
+                <label for="c1">Chuletas</label>
+                <input type="radio" name="carne" value="Chuletas" id="c1">
+            </div>
+
+            <div>
+                <label for="c2">Solomillo</label>
+                <input type="radio" name="carne" value="Solomillo" id="c2">
+            </div>
+
+            <div>
+                <label for="c3">Entrecot</label>
+                <input type="radio" name="carne" value="Entrecot" id="c3">
+            </div>
+
+            <h2>Pescados</h2>
+            <div>
+                <label for="p1">Lubina</label>
+                <input type="radio" name="pescado" value="Lubina" id="p1">
+            </div>
+
+            <div>
+                <label for="p2">Merluza</label>
+                <input type="radio" name="pescado" value="Merluza" id="p2">
+            </div>
+
+            <div>
+                <label for="p3">Rodaballo</label>
+                <input type="radio" name="pescado" value="Rodaballo" id="p3">
+            </div>
+
+            <p>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Pedir">
+            </p>
+        </form>
+        </div>
+    </body>
+</html>
